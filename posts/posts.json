@@ -1,0 +1,58 @@
+[
+  {
+    "fileName": "film_durak.html",
+    "timestamp": "2026-04-11T12:00:00",
+    "title": "Portrait of a man",
+    "preview": "About the meaning of the film Дурак (Bykov, 2014)",
+    "tags": "film, review"
+  },
+  {
+    "fileName": "post_2.html",
+    "timestamp": "2026-03-30T12:00:00",
+    "title": "Post 2 title",
+    "preview": "Post 2 preview",
+    "tags": "tag2, tag0"
+  },
+  {
+    "fileName": "post_3.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 3 title",
+    "preview": "Post 3 preview",
+    "tags": "tag3, tag0"
+  },
+  {
+    "fileName": "post_4.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 4 title",
+    "preview": "Post 4 preview",
+    "tags": "tag4, tag0"
+  },
+  {
+    "fileName": "post_5.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 5 title",
+    "preview": "Post 5 preview",
+    "tags": "tag5, tag0"
+  },
+  {
+    "fileName": "post_6.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 6 title",
+    "preview": "Post 6 preview",
+    "tags": "tag6, tag0"
+  },
+  {
+    "fileName": "post_7.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 7 title",
+    "preview": "Post 7 preview",
+    "tags": "tag7, tag0"
+  },
+  {
+    "fileName": "post_8.html",
+    "timestamp": "2026-03-31T12:00:00",
+    "title": "Post 8 title",
+    "preview": "Post 8 preview",
+    "tags": "tag8, tag0"
+  }
+]

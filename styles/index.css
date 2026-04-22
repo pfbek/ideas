@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2px;
+    height: calc(100vh - 4px);
+}
+
+.header {
+    overflow: hidden;
+    height: 15%;;
+    width: 100%;
+}
+
+.header_img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.upper_bar {
+    background-color: #999999;
+    height: 32px;
+}
+
+.upper_bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    height: 100%;
+    margin: 0;
+    padding-left: 16px;
+    gap: 16px;
+}
+
+.upper_bar a {
+    display: flex;
+    height: 100%; 
+    padding: 0 5px;
+    align-items: center;
+    text-decoration: none;
+    font-family: Verdana;
+    color: white;
+}
+
+.upper_bar a:hover {
+    background-color: #555;
+}
+
+.main_area {
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.left_bar, .right_bar {
+    padding: 1px;
+    background: #eeeeee;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: safe center;
+    padding: 40px 60px;
+    gap: 100px;
+    background: #ffffff;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    gap: 50px;
+}
+
+.post_img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: none;
+}
+
+.post_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    gap: 10px;
+}
+
+.post_header h2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 32px;
+}
+
+.post_header h2 a {
+    text-decoration: none;
+}
+
+.post_preview p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.post_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.post_tags li {
+    border-radius: 15px;
+    padding: 3px 7px; 
+    font-size: 12px;
+    color: #000000;
+    background: #dddddd;
+}
